@@ -1,0 +1,870 @@
+[
+  {
+    "old": "assets/content/coach/ai-dashboard.png",
+    "new": "assets/optimized/coach/ai-dashboard.webp",
+    "old_bytes": 67771,
+    "new_bytes": 5028,
+    "old_size": [
+      292,
+      178
+    ],
+    "new_size": [
+      292,
+      178
+    ]
+  },
+  {
+    "old": "assets/content/coach/coach-companion.png",
+    "new": "assets/optimized/coach/companion.webp",
+    "old_bytes": 74240,
+    "new_bytes": 5614,
+    "old_size": [
+      292,
+      178
+    ],
+    "new_size": [
+      292,
+      178
+    ]
+  },
+  {
+    "old": "assets/content/coach/coach-hero-family.png",
+    "new": "assets/optimized/coach/hero-family.webp",
+    "old_bytes": 302710,
+    "new_bytes": 24838,
+    "old_size": [
+      385,
+      474
+    ],
+    "new_size": [
+      385,
+      474
+    ]
+  },
+  {
+    "old": "assets/content/coach/flow-adjust.png",
+    "new": "assets/optimized/coach/flow-adjust.webp",
+    "old_bytes": 30458,
+    "new_bytes": 2736,
+    "old_size": [
+      190,
+      120
+    ],
+    "new_size": [
+      190,
+      120
+    ]
+  },
+  {
+    "old": "assets/content/coach/flow-feedback.png",
+    "new": "assets/optimized/coach/flow-feedback.webp",
+    "old_bytes": 29171,
+    "new_bytes": 2188,
+    "old_size": [
+      190,
+      120
+    ],
+    "new_size": [
+      190,
+      120
+    ]
+  },
+  {
+    "old": "assets/content/coach/flow-progress.png",
+    "new": "assets/optimized/coach/flow-progress.webp",
+    "old_bytes": 27488,
+    "new_bytes": 1896,
+    "old_size": [
+      190,
+      120
+    ],
+    "new_size": [
+      190,
+      120
+    ]
+  },
+  {
+    "old": "assets/content/coach/flow-reminder.png",
+    "new": "assets/optimized/coach/flow-reminder.webp",
+    "old_bytes": 25192,
+    "new_bytes": 1676,
+    "old_size": [
+      170,
+      120
+    ],
+    "new_size": [
+      170,
+      120
+    ]
+  },
+  {
+    "old": "assets/content/coach/flow-result.png",
+    "new": "assets/optimized/coach/flow-result.webp",
+    "old_bytes": 34381,
+    "new_bytes": 3076,
+    "old_size": [
+      190,
+      120
+    ],
+    "new_size": [
+      190,
+      120
+    ]
+  },
+  {
+    "old": "assets/content/coach/role-adjust.png",
+    "new": "assets/optimized/coach/role-adjust.webp",
+    "old_bytes": 28714,
+    "new_bytes": 2460,
+    "old_size": [
+      166,
+      116
+    ],
+    "new_size": [
+      166,
+      116
+    ]
+  },
+  {
+    "old": "assets/content/coach/role-encourage.png",
+    "new": "assets/optimized/coach/role-encourage.webp",
+    "old_bytes": 29694,
+    "new_bytes": 2798,
+    "old_size": [
+      166,
+      116
+    ],
+    "new_size": [
+      166,
+      116
+    ]
+  },
+  {
+    "old": "assets/content/coach/role-feedback.png",
+    "new": "assets/optimized/coach/role-feedback.webp",
+    "old_bytes": 30148,
+    "new_bytes": 2508,
+    "old_size": [
+      166,
+      116
+    ],
+    "new_size": [
+      166,
+      116
+    ]
+  },
+  {
+    "old": "assets/content/coach/role-reminder.png",
+    "new": "assets/optimized/coach/role-reminder.webp",
+    "old_bytes": 28950,
+    "new_bytes": 2448,
+    "old_size": [
+      166,
+      116
+    ],
+    "new_size": [
+      166,
+      116
+    ]
+  },
+  {
+    "old": "assets/content/coach/role-track.png",
+    "new": "assets/optimized/coach/role-track.webp",
+    "old_bytes": 31826,
+    "new_bytes": 2990,
+    "old_size": [
+      166,
+      116
+    ],
+    "new_size": [
+      166,
+      116
+    ]
+  },
+  {
+    "old": "assets/content/home-social-proof.png",
+    "new": "assets/optimized/home/social-proof.webp",
+    "old_bytes": 11396,
+    "new_bytes": 1418,
+    "old_size": [
+      210,
+      34
+    ],
+    "new_size": [
+      210,
+      34
+    ]
+  },
+  {
+    "old": "assets/generated/premium-home/coach-companion.png",
+    "new": "assets/optimized/home/coach-companion.webp",
+    "old_bytes": 1741608,
+    "new_bytes": 63124,
+    "old_size": [
+      1448,
+      1086
+    ],
+    "new_size": [
+      1333,
+      1000
+    ]
+  },
+  {
+    "old": "assets/generated/premium-home/conversion-ai-test.png",
+    "new": "assets/optimized/home/conversion-ai-test.webp",
+    "old_bytes": 1535608,
+    "new_bytes": 54674,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/generated/premium-home/hero-learning-os.png",
+    "new": "assets/optimized/home/hero-learning-os.webp",
+    "old_bytes": 1570480,
+    "new_bytes": 49076,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/generated/premium-home/pain-diagnosis.png",
+    "new": "assets/optimized/home/pain-diagnosis.webp",
+    "old_bytes": 1666053,
+    "new_bytes": 68532,
+    "old_size": [
+      1536,
+      1024
+    ],
+    "new_size": [
+      1500,
+      1000
+    ]
+  },
+  {
+    "old": "assets/generated/premium-home/product-dashboard.png",
+    "new": "assets/optimized/home/product-dashboard.webp",
+    "old_bytes": 1680603,
+    "new_bytes": 55494,
+    "old_size": [
+      1448,
+      1086
+    ],
+    "new_size": [
+      1333,
+      1000
+    ]
+  },
+  {
+    "old": "assets/generated/system-023942/hero-student-tablet.png",
+    "new": "assets/optimized/system/hero-student-tablet.webp",
+    "old_bytes": 1669027,
+    "new_bytes": 38598,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "assets/generated/system-023942/laptop-analytics.png",
+    "new": "assets/optimized/system/laptop-analytics.webp",
+    "old_bytes": 1514271,
+    "new_bytes": 46348,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "assets/generated/system-023942/laptop-taskboard.png",
+    "new": "assets/optimized/system/laptop-taskboard.webp",
+    "old_bytes": 1399239,
+    "new_bytes": 41678,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "assets/generated/system-023942/parent-phone.png",
+    "new": "assets/optimized/system/parent-phone.webp",
+    "old_bytes": 1676712,
+    "new_bytes": 47494,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "assets/generated/system-023942/tablet-dashboard.png",
+    "new": "assets/optimized/system/tablet-dashboard.webp",
+    "old_bytes": 1500358,
+    "new_bytes": 43594,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "assets/hero/hero-about-large.png",
+    "new": "assets/optimized/hero/about-hero.webp",
+    "old_bytes": 1482051,
+    "new_bytes": 45684,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/hero/hero-coach-large.png",
+    "new": "assets/optimized/hero/coach-hero.webp",
+    "old_bytes": 1431127,
+    "new_bytes": 38458,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/hero/hero-diagnosis-large.png",
+    "new": "assets/optimized/hero/diagnosis-hero.webp",
+    "old_bytes": 1480581,
+    "new_bytes": 32240,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/hero/hero-parent-large.png",
+    "new": "assets/optimized/hero/parent-hero.webp",
+    "old_bytes": 1378830,
+    "new_bytes": 42184,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/hero/hero-programs-large.png",
+    "new": "assets/optimized/hero/programs-hero.webp",
+    "old_bytes": 1574961,
+    "new_bytes": 65104,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/hero/hero-system-large.png",
+    "new": "assets/optimized/hero/system-hero.webp",
+    "old_bytes": 1519332,
+    "new_bytes": 39304,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1500,
+      844
+    ]
+  },
+  {
+    "old": "assets/photos1/2.png",
+    "new": "assets/optimized/parent/parent-path-one.webp",
+    "old_bytes": 1723283,
+    "new_bytes": 44604,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1250,
+      703
+    ]
+  },
+  {
+    "old": "assets/photos1/3.png",
+    "new": "assets/optimized/parent/parent-path-three.webp",
+    "old_bytes": 1614646,
+    "new_bytes": 35552,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1250,
+      703
+    ]
+  },
+  {
+    "old": "assets/photos1/4.png",
+    "new": "assets/optimized/parent/parent-path-two.webp",
+    "old_bytes": 1745420,
+    "new_bytes": 50846,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1250,
+      703
+    ]
+  },
+  {
+    "old": "assets/photos1/5.png",
+    "new": "assets/optimized/parent/parent-weekly-review.webp",
+    "old_bytes": 1717971,
+    "new_bytes": 54930,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1250,
+      703
+    ]
+  },
+  {
+    "old": "assets/photos1/7.png",
+    "new": "assets/optimized/parent/parent-report-phone.webp",
+    "old_bytes": 1279394,
+    "new_bytes": 45308,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1250,
+      703
+    ]
+  },
+  {
+    "old": "faq/faq/category-108.png",
+    "new": "assets/optimized/faq/category-108.webp",
+    "old_bytes": 773856,
+    "new_bytes": 2610,
+    "old_size": [
+      1254,
+      1254
+    ],
+    "new_size": [
+      520,
+      520
+    ]
+  },
+  {
+    "old": "faq/faq/category-ai.png",
+    "new": "assets/optimized/faq/category-ai.webp",
+    "old_bytes": 893816,
+    "new_bytes": 4528,
+    "old_size": [
+      1254,
+      1254
+    ],
+    "new_size": [
+      520,
+      520
+    ]
+  },
+  {
+    "old": "faq/faq/category-learning.png",
+    "new": "assets/optimized/faq/category-learning.webp",
+    "old_bytes": 801555,
+    "new_bytes": 3372,
+    "old_size": [
+      1254,
+      1254
+    ],
+    "new_size": [
+      520,
+      520
+    ]
+  },
+  {
+    "old": "faq/faq/category-parent.png",
+    "new": "assets/optimized/faq/category-parent.webp",
+    "old_bytes": 713548,
+    "new_bytes": 3632,
+    "old_size": [
+      1254,
+      1254
+    ],
+    "new_size": [
+      520,
+      520
+    ]
+  },
+  {
+    "old": "faq/faq/category-program.png",
+    "new": "assets/optimized/faq/category-program.webp",
+    "old_bytes": 703942,
+    "new_bytes": 3792,
+    "old_size": [
+      1254,
+      1254
+    ],
+    "new_size": [
+      520,
+      520
+    ]
+  },
+  {
+    "old": "faq/faq/category-progress.png",
+    "new": "assets/optimized/faq/category-progress.webp",
+    "old_bytes": 777463,
+    "new_bytes": 3554,
+    "old_size": [
+      1254,
+      1254
+    ],
+    "new_size": [
+      520,
+      520
+    ]
+  },
+  {
+    "old": "faq/faq/concern-anxiety-icon.png",
+    "new": "assets/optimized/faq/concern-anxiety.webp",
+    "old_bytes": 116602,
+    "new_bytes": 3082,
+    "old_size": [
+      360,
+      360
+    ],
+    "new_size": [
+      360,
+      360
+    ]
+  },
+  {
+    "old": "faq/faq/concern-motivation-icon.png",
+    "new": "assets/optimized/faq/concern-motivation.webp",
+    "old_bytes": 119454,
+    "new_bytes": 3900,
+    "old_size": [
+      360,
+      360
+    ],
+    "new_size": [
+      360,
+      360
+    ]
+  },
+  {
+    "old": "faq/faq/concern-overview.png",
+    "new": "assets/optimized/faq/concern-overview.webp",
+    "old_bytes": 870235,
+    "new_bytes": 30688,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "faq/faq/concern-parent-icon.png",
+    "new": "assets/optimized/faq/concern-parent.webp",
+    "old_bytes": 117310,
+    "new_bytes": 3810,
+    "old_size": [
+      360,
+      360
+    ],
+    "new_size": [
+      360,
+      360
+    ]
+  },
+  {
+    "old": "faq/faq/concern-reading-icon.png",
+    "new": "assets/optimized/faq/concern-reading.webp",
+    "old_bytes": 115978,
+    "new_bytes": 3170,
+    "old_size": [
+      360,
+      360
+    ],
+    "new_size": [
+      360,
+      360
+    ]
+  },
+  {
+    "old": "faq/faq/contact-card.png",
+    "new": "assets/optimized/faq/contact-card.webp",
+    "old_bytes": 874011,
+    "new_bytes": 9800,
+    "old_size": [
+      1086,
+      1448
+    ],
+    "new_size": [
+      390,
+      520
+    ]
+  },
+  {
+    "old": "faq/faq/faq-cta-family.png",
+    "new": "assets/optimized/faq/cta-family.webp",
+    "old_bytes": 1121565,
+    "new_bytes": 36074,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "faq/faq/faq-hero-family.png",
+    "new": "assets/optimized/faq/hero-family.webp",
+    "old_bytes": 1477935,
+    "new_bytes": 31532,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      1300,
+      732
+    ]
+  },
+  {
+    "old": "faq/faq/hero-card-diagnosis.png",
+    "new": "assets/optimized/faq/hero-card-diagnosis.webp",
+    "old_bytes": 875049,
+    "new_bytes": 22312,
+    "old_size": [
+      1448,
+      1086
+    ],
+    "new_size": [
+      1133,
+      850
+    ]
+  },
+  {
+    "old": "faq/faq/hero-card-start.png",
+    "new": "assets/optimized/faq/hero-card-start.webp",
+    "old_bytes": 850353,
+    "new_bytes": 20194,
+    "old_size": [
+      1448,
+      1086
+    ],
+    "new_size": [
+      1133,
+      850
+    ]
+  },
+  {
+    "old": "faq/faq/hot-top5.png",
+    "new": "assets/optimized/faq/hot-top5.webp",
+    "old_bytes": 921140,
+    "new_bytes": 13826,
+    "old_size": [
+      1086,
+      1448
+    ],
+    "new_size": [
+      390,
+      520
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_17_53.png",
+    "new": "assets/optimized/progress/hero-family-progress.webp",
+    "old_bytes": 1441284,
+    "new_bytes": 17936,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      900,
+      507
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_00 (1).png",
+    "new": "assets/optimized/progress/achievement-badge-progress.webp",
+    "old_bytes": 1706283,
+    "new_bytes": 28162,
+    "old_size": [
+      1086,
+      1448
+    ],
+    "new_size": [
+      540,
+      720
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_00 (2).png",
+    "new": "assets/optimized/progress/learning-growth-progress.webp",
+    "old_bytes": 1515570,
+    "new_bytes": 21118,
+    "old_size": [
+      1086,
+      1448
+    ],
+    "new_size": [
+      540,
+      720
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_00 (3).png",
+    "new": "assets/optimized/progress/story-student-li.webp",
+    "old_bytes": 907106,
+    "new_bytes": 14780,
+    "old_size": [
+      1448,
+      1086
+    ],
+    "new_size": [
+      900,
+      675
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_00 (4).png",
+    "new": "assets/optimized/progress/story-student-wang.webp",
+    "old_bytes": 850453,
+    "new_bytes": 13566,
+    "old_size": [
+      1448,
+      1086
+    ],
+    "new_size": [
+      900,
+      675
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_00 (5).png",
+    "new": "assets/optimized/progress/story-student-zhang.webp",
+    "old_bytes": 858307,
+    "new_bytes": 13136,
+    "old_size": [
+      1448,
+      1086
+    ],
+    "new_size": [
+      900,
+      675
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_00 (6).png",
+    "new": "assets/optimized/progress/cta-family-progress.webp",
+    "old_bytes": 1222076,
+    "new_bytes": 27140,
+    "old_size": [
+      1672,
+      941
+    ],
+    "new_size": [
+      900,
+      507
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_01 (7).png",
+    "new": "assets/optimized/progress/mini-report-progress.webp",
+    "old_bytes": 1705520,
+    "new_bytes": 24114,
+    "old_size": [
+      1086,
+      1448
+    ],
+    "new_size": [
+      540,
+      720
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_01 (8).png",
+    "new": "assets/optimized/progress/mother-child-tablet-progress.webp",
+    "old_bytes": 1688104,
+    "new_bytes": 41480,
+    "old_size": [
+      1086,
+      1448
+    ],
+    "new_size": [
+      540,
+      720
+    ]
+  },
+  {
+    "old": "progress/122/ChatGPT Image 2026年6月16日 上午01_18_01 (9).png",
+    "new": "assets/optimized/progress/report-device-progress.webp",
+    "old_bytes": 1571228,
+    "new_bytes": 22372,
+    "old_size": [
+      1086,
+      1448
+    ],
+    "new_size": [
+      540,
+      720
+    ]
+  }
+]

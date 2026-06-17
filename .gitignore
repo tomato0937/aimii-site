@@ -1,0 +1,27 @@
+.DS_Store
+
+# Local design sources, screenshots, and audit outputs.
+Reference image/
+audit/
+test/
+tools/
+image-to-code-*.html
+image-to-code-system.css
+
+# Heavy source images kept locally. Production pages use assets/optimized/.
+assets/cta/
+assets/content/
+assets/generated/
+assets/image-to-code/
+assets/photos1/
+assets/reference-advantage/
+assets/screens/
+assets/vendor/
+assets/hero/*.png
+!assets/hero/logo.png
+faq/faq/
+progress/122/
+
+# Keep optimized production assets.
+!assets/optimized/
+!assets/optimized/**
