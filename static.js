@@ -56,6 +56,72 @@ function bindHeaderState() {
   window.addEventListener("scroll", update, { passive: true });
 }
 
+function bindMobileNav() {
+  const header = document.querySelector(".site-header");
+  const nav = header?.querySelector(".site-nav");
+  const actions = header?.querySelector(".header-actions");
+  if (!header || !nav || header.querySelector("[data-mobile-nav-toggle]")) return;
+
+  const toggle = document.createElement("button");
+  toggle.className = "mobile-nav-toggle";
+  toggle.type = "button";
+  toggle.setAttribute("aria-label", "開啟手機選單");
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.setAttribute("aria-controls", "mobile-nav-panel");
+  toggle.setAttribute("data-mobile-nav-toggle", "");
+  toggle.innerHTML = '<span></span><span></span><span></span><b>選單</b>';
+
+  const panel = document.createElement("div");
+  panel.className = "mobile-nav-panel";
+  panel.id = "mobile-nav-panel";
+  panel.setAttribute("data-mobile-nav-panel", "");
+  panel.hidden = true;
+
+  const links = [...nav.querySelectorAll("a")];
+  const navList = document.createElement("nav");
+  navList.className = "mobile-nav-list";
+  navList.setAttribute("aria-label", "手機主選單");
+  links.forEach((link) => navList.appendChild(link.cloneNode(true)));
+
+  const primaryCta = actions?.querySelector(".btn")?.cloneNode(true);
+  if (primaryCta) {
+    primaryCta.classList.add("mobile-nav-cta");
+    primaryCta.classList.remove("small");
+  }
+
+  panel.appendChild(navList);
+  if (primaryCta) panel.appendChild(primaryCta);
+  header.append(toggle, panel);
+
+  const setOpen = (open) => {
+    header.classList.toggle("is-mobile-nav-open", open);
+    toggle.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.setAttribute("aria-label", open ? "關閉手機選單" : "開啟手機選單");
+    panel.hidden = !open;
+  };
+
+  toggle.addEventListener("click", () => setOpen(!header.classList.contains("is-mobile-nav-open")));
+  panel.addEventListener("click", (event) => {
+    if (event.target.closest("a")) setOpen(false);
+  });
+  document.addEventListener("click", (event) => {
+    if (!header.classList.contains("is-mobile-nav-open")) return;
+    if (header.contains(event.target)) return;
+    setOpen(false);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setOpen(false);
+  });
+  window.addEventListener(
+    "resize",
+    () => {
+      if (window.innerWidth > 900) setOpen(false);
+    },
+    { passive: true },
+  );
+}
+
 function decorateMotionChildren(target) {
   const selectors = [
     ":scope > *",
@@ -505,6 +571,7 @@ function bindSystemCtaMotion() {
 document.addEventListener("DOMContentLoaded", () => {
   bindDesktopScale();
   bindHeaderState();
+  bindMobileNav();
   bindRevealMotion();
   bindFaqInteraction();
   bindFaqCategories();
