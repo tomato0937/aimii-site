@@ -5977,6 +5977,120 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
   line-height: 1.9;
 }
 
+.system-role-section {
+  position: relative;
+  padding-block: clamp(36px, 5vw, 76px);
+}
+
+.system-role-shell {
+  width: min(1420px, calc(100% - var(--page-gutter) * 2));
+  margin-inline: auto;
+  padding: clamp(24px, 3.2vw, 42px);
+  border: 1px solid rgba(205, 229, 231, 0.88);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 8% 12%, rgba(80, 197, 187, 0.12), transparent 30%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(247, 253, 253, 0.92));
+  box-shadow: 0 26px 76px rgba(34, 75, 82, 0.1);
+}
+
+.system-role-head {
+  max-width: 780px;
+  margin: 0 auto clamp(22px, 3vw, 34px);
+  text-align: center;
+}
+
+.system-role-head span {
+  color: #19a99f;
+  font-weight: 920;
+}
+
+.system-role-head h2 {
+  margin: 8px 0 12px;
+  color: #17283d;
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+
+.system-role-head p {
+  margin: 0;
+  color: #5d6b79;
+  font-weight: 760;
+  line-height: 1.85;
+}
+
+.system-role-compare {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(18px, 2.4vw, 28px);
+}
+
+.system-role-compare article {
+  padding: clamp(20px, 2.4vw, 30px);
+  border: 1px solid rgba(211, 232, 234, 0.9);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 18px 44px rgba(42, 81, 88, 0.07);
+}
+
+.system-role-compare article.coach {
+  border-color: rgba(246, 177, 184, 0.72);
+  background:
+    radial-gradient(circle at 92% 4%, rgba(242, 127, 135, 0.12), transparent 34%),
+    rgba(255, 255, 255, 0.84);
+}
+
+.system-role-compare h3 {
+  margin: 0 0 16px;
+  color: #17283d;
+  font-size: 1.42rem;
+}
+
+.system-role-compare ul {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.system-role-compare li {
+  position: relative;
+  padding-left: 20px;
+  color: #4f6070;
+  font-weight: 800;
+  line-height: 1.65;
+}
+
+.system-role-compare li::before {
+  content: "";
+  position: absolute;
+  top: 0.75em;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #35bdb5;
+  box-shadow: 0 0 0 5px rgba(53, 189, 181, 0.12);
+}
+
+.system-role-compare .coach li::before {
+  background: #f27f87;
+  box-shadow: 0 0 0 5px rgba(242, 127, 135, 0.12);
+}
+
+.system-role-note {
+  width: fit-content;
+  margin: clamp(20px, 2.8vw, 34px) auto 0;
+  padding: 12px 22px;
+  border-radius: 999px;
+  color: #157f78;
+  background: rgba(232, 250, 248, 0.92);
+  font-weight: 920;
+  box-shadow: 0 14px 34px rgba(48, 148, 141, 0.12);
+}
+
 .system-kicker {
   display: inline-flex;
   min-height: 30px;
@@ -13982,6 +14096,10 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
 }
 
 @media (max-width: 1023px) {
+  .system-role-compare {
+    grid-template-columns: 1fr;
+  }
+
   .system-showcase-shell,
   .system-showcase-shell.reverse {
     grid-template-columns: 1fr;
@@ -18186,6 +18304,7 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
 
 /* Coach page 55.png redesign */
 .page-coach .coach-reference-section,
+.page-coach .coach-theory-section,
 .page-coach .coach-dual-section,
 .page-coach .coach-flow-section,
 .page-coach .coach-reassure-section {
@@ -18197,12 +18316,166 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
 }
 
 .page-coach .coach-reference-shell,
+.page-coach .coach-theory-shell,
 .page-coach .coach-dual-grid,
 .page-coach .coach-flow-shell,
 .page-coach .coach-reassure-grid {
   width: 100%;
   max-width: 1420px;
   margin-inline: auto;
+}
+
+.coach-theory-shell {
+  display: grid;
+  gap: clamp(20px, 2.6vw, 34px);
+  padding: clamp(24px, 3.4vw, 46px);
+  border: 1px solid rgba(205, 229, 231, 0.9);
+  border-radius: 34px;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(80, 197, 187, 0.13), transparent 32%),
+    radial-gradient(circle at 96% 24%, rgba(242, 127, 135, 0.11), transparent 28%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(249, 253, 253, 0.94));
+  box-shadow:
+    0 30px 82px rgba(31, 73, 82, 0.11),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.coach-theory-head {
+  display: grid;
+  max-width: 860px;
+  gap: 12px;
+}
+
+.coach-theory-head span,
+.coach-loop-method > div span {
+  color: #19a99f;
+  font-weight: 920;
+}
+
+.coach-theory-head h2 {
+  max-width: 780px;
+  margin: 0;
+  color: #17283d;
+  font-size: clamp(2.2rem, 3.2vw, 4rem);
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.coach-theory-head p,
+.coach-loop-method p {
+  max-width: 780px;
+  margin: 0;
+  color: #526372;
+  font-weight: 780;
+  line-height: 1.9;
+}
+
+.coach-theory-quote {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 22px;
+  border: 1px solid rgba(194, 225, 228, 0.9);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.coach-theory-quote strong {
+  color: #17283d;
+  font-size: clamp(1.2rem, 1.7vw, 1.7rem);
+}
+
+.coach-theory-quote span {
+  color: #158a82;
+  font-weight: 900;
+}
+
+.coach-theory-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.coach-theory-grid article {
+  min-height: 230px;
+  padding: 20px;
+  border: 1px solid rgba(211, 232, 234, 0.86);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 18px 44px rgba(38, 78, 84, 0.07);
+}
+
+.coach-theory-grid b {
+  display: inline-flex;
+  margin-bottom: 12px;
+  color: #19a99f;
+  font-size: 0.9rem;
+}
+
+.coach-theory-grid strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #17283d;
+  font-size: 1.16rem;
+  line-height: 1.35;
+}
+
+.coach-theory-grid p {
+  margin: 0;
+  color: #5b6a78;
+  font-size: 0.94rem;
+  font-weight: 760;
+  line-height: 1.72;
+}
+
+.coach-loop-method {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+  gap: clamp(20px, 3vw, 36px);
+  align-items: start;
+  padding: clamp(20px, 2.6vw, 32px);
+  border-radius: 28px;
+  background:
+    linear-gradient(90deg, rgba(232, 250, 248, 0.9), rgba(255, 246, 247, 0.72));
+}
+
+.coach-loop-method h3 {
+  margin: 8px 0 12px;
+  color: #17283d;
+  font-size: clamp(1.7rem, 2.4vw, 2.7rem);
+  line-height: 1.2;
+}
+
+.coach-loop-method ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.coach-loop-method li {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid rgba(211, 232, 234, 0.82);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.coach-loop-method li b {
+  color: #17283d;
+  font-size: 1.02rem;
+}
+
+.coach-loop-method li span {
+  color: #5f6d78;
+  font-size: 0.9rem;
+  font-weight: 760;
+  line-height: 1.55;
 }
 
 .coach-reference-shell {
@@ -18453,6 +18726,11 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
   gap: 18px;
 }
 
+.coach-dual-grid.coach-role-triad {
+  grid-template-columns: minmax(0, 1fr) 54px minmax(0, 1fr) 54px minmax(0, 1fr);
+  gap: 14px;
+}
+
 .coach-dual-card {
   position: relative;
   display: grid;
@@ -18478,12 +18756,30 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
     linear-gradient(135deg, rgba(255, 242, 244, 0.94), rgba(255, 255, 255, 0.9));
 }
 
+.coach-role-triad .coach-dual-card {
+  grid-template-columns: 1fr;
+  align-content: start;
+  gap: 16px;
+  min-height: 520px;
+}
+
+.coach-dual-card.director {
+  border-color: rgba(218, 178, 118, 0.5);
+  background:
+    radial-gradient(circle at var(--pointer-x, 30%) var(--pointer-y, 0%), rgba(225, 179, 112, 0.16), transparent 260px),
+    linear-gradient(135deg, rgba(255, 249, 240, 0.96), rgba(255, 255, 255, 0.92));
+}
+
 .coach-dual-photo {
   min-height: 210px;
   overflow: hidden;
   border-radius: 14px;
   background: #f4eee6;
   box-shadow: 0 18px 38px rgba(74, 55, 44, 0.12);
+}
+
+.coach-role-triad .coach-dual-photo {
+  min-height: 220px;
 }
 
 .coach-dual-copy {
@@ -18511,6 +18807,10 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
 
 .coach-dual-card.coral h2 {
   color: var(--coral);
+}
+
+.coach-dual-card.director h2 {
+  color: #b98745;
 }
 
 .coach-dual-copy p {
@@ -18551,6 +18851,10 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
   color: var(--coral);
 }
 
+.coach-dual-card.director .coach-check-list li::before {
+  color: #c69452;
+}
+
 .coach-plus-badge {
   position: relative;
   z-index: 2;
@@ -18568,6 +18872,13 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
   box-shadow: 0 18px 36px rgba(88, 197, 189, 0.28);
   font-size: 2rem;
   font-weight: 500;
+}
+
+.coach-role-triad .coach-plus-badge {
+  width: 54px;
+  height: 54px;
+  margin-inline: -12px;
+  font-size: 1.65rem;
 }
 
 .coach-flow-shell {
@@ -18953,6 +19264,14 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
 }
 
 @media (max-width: 1023px) {
+  .coach-theory-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .coach-loop-method {
+    grid-template-columns: 1fr;
+  }
+
   .coach-reference-shell {
     grid-template-columns: 280px minmax(0, 1fr);
     gap: 24px;
@@ -18968,6 +19287,14 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
 
   .coach-dual-grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .coach-dual-grid.coach-role-triad {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .coach-role-triad .coach-dual-card {
+    min-height: auto;
   }
 
   .coach-plus-badge {
@@ -18987,6 +19314,16 @@ html.motion-ready :is(.hero, .faq-ref-hero).is-visible .motion-child {
 }
 
 @media (max-width: 900px) {
+  .coach-theory-shell {
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .coach-theory-grid,
+  .coach-loop-method ol {
+    grid-template-columns: 1fr;
+  }
+
   .coach-reference-shell {
     grid-template-columns: 1fr;
     padding: 18px;
