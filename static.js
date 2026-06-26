@@ -371,6 +371,75 @@ function bindHomeLeadForm() {
   });
 }
 
+function bindDiagnosisStartForm() {
+  const form = document.querySelector("[data-diagnosis-start-form]");
+  if (!form) return;
+
+  const success = form.querySelector("[data-diagnosis-start-success]");
+  const summary = form.querySelector("[data-diagnosis-start-summary]");
+  const edit = form.querySelector("[data-diagnosis-start-edit]");
+  const fields = ["parentName", "contact", "grade", "concern"];
+  const errors = {
+    parentName: "請填寫家長姓名。",
+    contact: "請填寫手機或 Email，方便後續確認體檢流程。",
+    grade: "請選擇孩子年級。",
+    concern: "請簡單描述目前最擔心的學習問題。",
+  };
+
+  const setError = (name, message) => {
+    const field = form.querySelector(`[data-diagnosis-field="${name}"]`);
+    const output = form.querySelector(`[data-diagnosis-error="${name}"]`);
+    if (!field || !output) return;
+    field.classList.toggle("has-error", Boolean(message));
+    if (message) {
+      field.classList.remove("is-nudging");
+      void field.offsetWidth;
+      field.classList.add("is-nudging");
+    }
+    output.textContent = message;
+  };
+
+  const validate = () => {
+    let ok = true;
+    fields.forEach((name) => {
+      const value = String(form.elements[name]?.value || "").trim();
+      let message = value ? "" : errors[name];
+      if (name === "contact" && value && !/(@|[0-9]{8,})/.test(value)) {
+        message = "請確認聯絡方式格式，例如手機或 Email。";
+      }
+      setError(name, message);
+      if (message) ok = false;
+    });
+    return ok;
+  };
+
+  fields.forEach((name) => {
+    const control = form.elements[name];
+    if (!control) return;
+    control.addEventListener("input", () => setError(name, ""));
+    control.addEventListener("change", () => setError(name, ""));
+  });
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!validate()) return;
+    const grade = String(form.elements.grade?.value || "").trim();
+    const concern = String(form.elements.concern?.value || "").trim();
+    form.classList.add("is-submitted");
+    if (summary) {
+      summary.textContent = `${grade}孩子目前最需要先看懂：「${concern}」。接下來建議從 15 分鐘 AiMii 學習體檢開始，整理知識缺口、錯因與 7 天任務建議。`;
+    }
+    if (success) success.hidden = false;
+    requestAnimationFrame(updateDesktopScale);
+  });
+
+  edit?.addEventListener("click", () => {
+    form.classList.remove("is-submitted");
+    if (success) success.hidden = true;
+    requestAnimationFrame(updateDesktopScale);
+  });
+}
+
 function bindHeroMotion() {
   const hero = document.querySelector(".hero");
   if (!hero || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -443,6 +512,7 @@ document.addEventListener("DOMContentLoaded", () => {
   bindPremiumTilt();
   bindButtonFeedback();
   bindHomeLeadForm();
+  bindDiagnosisStartForm();
   bindHeroMotion();
   bindSystemCtaMotion();
 });
